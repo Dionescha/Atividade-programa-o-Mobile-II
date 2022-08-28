@@ -1,14 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
-
-import React from "react";
-
-
+import { Text, View } from 'react-native';
+import { Login } from './assets/src/Pages/Login/Login';
+import { Home } from './assets/src/Pages/Home/Home';
+import { Cadastro } from './assets/src/Pages/Cadastro/Cadastro';
 
 
 
+function App() {
 
-export default function App() {
-  return 
+  return (
+   <Login></Login>
+   //<Home></Home>//
+   //<Cadastro></Cadastro>//
+  )
 }
+
+export default App;
